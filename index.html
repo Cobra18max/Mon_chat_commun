@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat_UQAC</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="Ajax.js" defer></script>    
+    <script src="App-server.js" defer></script>
+    <script src="websocket.js" defer></script>
+</head>
+<body>
+<div class="chat-Set">
+    <div class="nav-top">
+        <div class="left-top">
+            <img src="Pictures/caret-left.png" alt="chevron-gauche" />
+            <p>Retour</p>
+        </div>
+        <div class="utilisateur">
+            <p>Baba Yaga</p>
+            <P>Online</P>
+        </div>
+        <div class="Right-top">
+            <img src="Pictures/phone.png" alt="appel" />
+            <img src="Pictures/video-camera.png" alt="Video" />
+        </div>
+    </div>
+    <div class="Talks">
+
+    </div>
+
+    <form class="Chat-form">
+        <div class="container">
+                <div class="text-input"> <!-- Correction de la classe : convention de nommage -->
+                    <input type="text" id="texte" placeholder="Enter your message"> <!-- Suppression de l'espace dans l'id -->
+                </div>
+                <button class="Under-right">
+                    <img src="Pictures/paper-plane-tilt-duotone.png"  alt="Submit">
+                </button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
